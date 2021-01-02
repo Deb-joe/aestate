@@ -1,0 +1,42 @@
+.NavbarItems {
+     display: flex;
+     font-size: 1.4rem;
+    
+}
+
+.roti {
+	justify-content: flex-start;
+	color: white;
+	cursor: pointer;
+	text-align: center;
+}
+
+.mr-auto {
+	color: white;
+	text-align: center;
+	width: 70vw;
+	justify-content: flex-end;
+	margin-right: 1.5rem;
+
+}
+
+.mr-auto:hover {
+	color: white;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+
+.tuita {
+	display: inline-block;
+}
+
+a.roti.navbar-brand{
+	color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255 255 255) !important;
+}
+.navbar {
+	background-color: #002f7a;
+}

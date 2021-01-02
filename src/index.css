@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic:wght@700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+   font-family: 'Andika New Basic', sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #fff;
+   font-family: 'Andika New Basic', sans-serif;
+   color: white;
+}
+
+html, body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
