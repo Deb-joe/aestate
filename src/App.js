@@ -19,7 +19,7 @@ function App() {
     <div className="App" style={{ position: 'relative', overflow: "hidden" }}>
       <div>
        
-        <Particles height="700vh" width="100vw" params={configParticles} style={{ position: 'absolute'}} />
+        <Particles height="400vh" width="100vw" params={configParticles} style={{ position: 'absolute'}} />
          
       </div>
       <React.Fragment>

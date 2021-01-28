@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './Navbar.css';
-import { Nav, Navbar, Form, FormControl, NavDropdown, Button } from 'react-bootstrap';
+//import { HashLink as Link } from 'react-router-hash-link';
+import { Nav, Navbar, Form, FormControl, Button } from 'react-bootstrap';
+//import { Link, animateScroll as scroll } from "react-scroll";
 
 
 
@@ -24,18 +26,15 @@ class NavBar extends Component {
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
-      <Nav.Link href="/">Home</Nav.Link>
+      <Nav.Link smooth={true} duration={500} spy={true} exact='true' offset={-80} activeClass="active" href="#home">Home</Nav.Link>
       
-      <NavDropdown title="Projects" id="basic-nav-dropdown" href="/project">
-        <NavDropdown.Item href="/project">Project 1</NavDropdown.Item>
-        <NavDropdown.Item href="/project">Project 2</NavDropdown.Item>
-        <NavDropdown.Item href="/project">Project 3</NavDropdown.Item>
-      </NavDropdown>
-      <Nav.Link href="/gallery">Gallery</Nav.Link>
+      <Nav.Link smooth={true} duration={500} spy={true} exact='true' offset={-80} activeClass="active" href="#project">Project</Nav.Link>
+      <Nav.Link smooth={true} duration={500} spy={true} exact='true' offset={-80} activeClass="active" href="#gallery">Gallery</Nav.Link>
       <Form inline>
       <FormControl type="text" placeholder="Search" className="mr-sm-2" />
       <Button variant="outline-light"><i class="fas fa-search"></i></Button>
     </Form>
+
     </Nav>
     
   </Navbar.Collapse>

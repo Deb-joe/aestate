@@ -4,6 +4,10 @@
     
 }
 
+.active {
+    border-bottom: 3px solid #fdffe0;
+}
+
 .roti {
 	justify-content: flex-start;
 	color: white;
@@ -38,5 +42,9 @@ a.roti.navbar-brand{
     color: rgb(255 255 255) !important;
 }
 .navbar {
-	background-color: #002f7a;
+	background-color: #0385ff;
+}
+
+.nav-link {
+	transition: scroll;
 }

@@ -11,7 +11,7 @@ const configParticles = {
       }
     },
     "color": {
-      "value": "#ffffff"
+      "value": "#0385ff"
     },
     "shape": {
       "type": "circle",

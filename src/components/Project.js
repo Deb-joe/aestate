@@ -4,7 +4,7 @@ import { CardDeck, Card } from 'react-bootstrap';
 
 export const Project = (props) => (
  
-  <CardDeck>
+  <CardDeck id="project">
   <Card>
     <Card.Img variant="top" src="https://images.pexels.com/photos/5847754/pexels-photo-5847754.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
     <Card.Body>

@@ -4,7 +4,7 @@ import { Container, Col, Row, Image } from 'react-bootstrap';
 
 export const Gallery = (props) => (
  
- <Container>
+ <Container id="gallery">
   <Row>
     <Col xs={12} md={6}>
       <Image src="http://images.dailyhive.com/20160919115313/Real-estate-in-Vancouver-Shutterstock.jpg" fluid />
